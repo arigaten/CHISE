@@ -1,4 +1,47 @@
-;; -*- coding: utf-8-jis-er -*-
+On March 5, 2013, it was announced on the CHISE Project's mailing lists that
+most of that project's servers would cease operation on March 11.  It is not
+clear to me whether that is a temporary interruption or a permanent end to
+the project's Web presence.  No replacement servers, nor time at which the
+original servers might come up again, were mentioned.  The Japanese-language
+posting sounded less final to me than the English-language posting, but that
+could simply be a cultural politeness thing, and my Japanese isn't reliable
+enough to be certain anyway.  Given that the project doesn't seem to have
+updated in years, I fear the worst.  Since I maintain a project of my own
+for which CHISE's IDS database is useful, I'm placing a snapshot (taken
+March 6) of the CHISE IDS database here in my own space, against the
+possibility of the original repository's present or future abandonment.
+
+The original repository location from which I took the snapshot was:
+   http://git.chise.org/git/chise/ids.git
+
+The CHISE project's home (but this is one of the servers they said was going
+down) is currently at:
+   http://www.chise.org/
+
+The intended purpose of this snapshot is to support IDSgrep, which is part
+of the Tsukurimashou Project, whose home page is here:
+   http://tsukurimashou.sourceforge.jp/
+
+I want to be at most a curator, not a maintainer, of this data; don't expect
+me to be able to answer questions about its original context within CHISE,
+which is a large, complicated project with goals different from mine and
+documented almost exclusively in Japanese.  I also don't plan to maintain a
+snapshot of other parts of CHISE, only this part which is relevant to my own
+project.  俺は通りすがりのバニーボーイです※ - I'm a passerby who is
+redistributing the data under its free license.  I've added a copy of that
+license, the GNU GPL version 2, which wasn't actually included in the
+original repository but is referenced in the README below.
+
+Matthew Skala
+mskala@ansuz.sooke.bc.ca
+March 6, 2013
+
+※ This is a pop culture reference; if you have to ask, you won't understand
+the answer.
+
+Material below these hyphens is the original README from CHISE:
+------------------------------------------------------------------------
+
 This directory holds the CHISE-IDS package which contains data and
 utilities about structures of Han Ideographs (漢字).
 
